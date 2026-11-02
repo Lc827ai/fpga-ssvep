@@ -1,0 +1,6 @@
+interface:
+  display_name: "Zynq AXI EEG"
+  short_description: "Design and debug AXI Lite Stream DMA EEG links"
+  default_prompt: "Use $zynq-axi-eeg to design or debug my Zynq AXI data path."
+policy:
+  allow_implicit_invocation: true
