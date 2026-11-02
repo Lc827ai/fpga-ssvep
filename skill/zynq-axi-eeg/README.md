@@ -66,6 +66,6 @@
 zynq-axi-eeg/
 ├── SKILL.md                              # Codex 的工作指引
 ├── README.md                             # 使用说明
-├── agents/openai.yaml                    # 界面与调用元数据
-└── references/eeg-interface-contract.md  # 本 EEG 工程的数据与寄存器约定
+├── openai.yaml                    # 界面与调用元数据
+└── eeg-interface-contract.md  # 本 EEG 工程的数据与寄存器约定
 ```
