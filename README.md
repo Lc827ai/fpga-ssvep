@@ -49,8 +49,6 @@ PC 监控界面 <────────────┘              HDMI 刺�
 
 ## 仓库内容
 
-当前提交包中的主要文件如下。为方便 GitHub 展示，建议将 `.txt` 源文件改为对应的 `.v` 或 `.py` 后再提交；文件内容本身无需修改。
-
 | 原始文件 | 建议仓库位置 | 用途 |
 |---|---|---|
 | `eeg_filter_top.txt` | `rtl/eeg_filter_top.v` | AXI-Stream 顶层，级联两级 IIR |
@@ -67,9 +65,7 @@ PC 监控界面 <────────────┘              HDMI 刺�
 
 ## 快速开始
 
-### 1. 准备代码目录
-
-按上表整理源文件即可。`.Xil/`、`project_1.cache/`、`project_1.gen/`、`project_1.runs/`、日志和临时文件均为 Vivado 生成物，不建议上传。
+### 1. 代码目录
 
 ```text
 fpga-eeg-ssvep/
